@@ -1,0 +1,140 @@
+/*html, body {
+  height: 100%;
+  width: 100%;
+}*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 364px auto auto 78px;
+}
+
+.header {
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FF4C4C;
+    font-size: 28px;
+    padding: 15px;
+}
+
+.burger {
+    color:red;
+    font-size:2em;
+}
+
+.started {
+    background:  linear-gradient(180deg, #FF4C4C 0%, #A94E97 100%);
+    margin-left: 35px;
+    border-radius: 28px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    grid-column: span 3;
+    margin-left:59px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro p {
+    color: #83869A;
+    font-size: 18px;
+}
+
+.title img {
+    border-radius: 39px;
+    width: 530px;
+    margin-left: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'roboto';
+}
+
+.main {
+    grid-column: span 3;
+    grid-row: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.options img {
+    width:50px;
+}
+
+.options {
+    box-shadow: 0 25px 50px;
+    border-radius: 15px;
+    width: 350px;
+    height: 322px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.other {
+    background: linear-gradient(180deg, #FF4C4C 0%, #A94E97 100%)
+}
+
+.other p {
+    font-size: 40px;
+    margin: 59px 12px 92px 52px;
+    color: white;
+
+}
+
+.options h2 {
+    margin-top: 64px;
+    font-size: 24px;
+    margin-left: 32px;
+}
+
+.options p {
+    font-size: 18px;
+    color: #83869A;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.options a {
+    color: #FF4C4C;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.footer {
+    background-color:#FF4C4C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 28px;
+    grid-column: span 3;
+    padding-left: 49px;
+}
