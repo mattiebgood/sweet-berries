@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:center;
+    margin-right: 30px;
 }
 
 nav a {
@@ -65,7 +66,7 @@ nav a {
 
 .title img {
     border-radius: 39px;
-    width: 530px;
+    width: 600px;
     margin-left: 60px;
 }
 
