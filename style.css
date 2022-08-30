@@ -16,7 +16,7 @@ body {
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 364px auto auto 78px;
+    grid-template-rows: 150px 1fr 1fr 1fr 50px;
 }
 
 .header {
@@ -35,8 +35,7 @@ nav a {
 }
 
 .burger {
-    color:red;
-    font-size:2em;
+    color: red;
 }
 
 .started {
@@ -86,16 +85,22 @@ h1 {
 
 .options img {
     width:50px;
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 85px;
+    position:relative;
 }
 
 .options {
-    box-shadow: 0 25px 50px;
-    border-radius: 15px;
     width: 350px;
     height: 322px;
-    margin-top: 75px;
+    box-shadow: 4px 8px 8px lightgray;
+    border-radius: 15px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    margin: 40px;
 }
 
 .other {
