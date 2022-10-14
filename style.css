@@ -43,6 +43,7 @@ nav a {
     margin-left: 35px;
     border-radius: 28px;
     color: white;
+    width: 167px;
 }
 
 .title {
@@ -56,6 +57,7 @@ nav a {
 .intro {
     display: flex;
     flex-direction: column;
+    margin: 28px;
 }
 
 .intro p {
@@ -104,11 +106,10 @@ h1 {
 }
 
 .other {
-    background: linear-gradient(180deg, #FF4C4C 0%, #A94E97 100%)
+    background: linear-gradient(180deg, #FF4C4C, #A94E97 100%)
 }
 
-.other p {
-    font-size: 40px;
+.other h1 {
     margin: 59px 12px 92px 52px;
     color: white;
 
